@@ -1,0 +1,45 @@
+.MovieContainer {
+    margin: 1rem;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    height: 600px;
+}
+
+.MovieDetails {
+    margin: 0 3rem;
+    position: absolute;
+    left: 30%;
+    height: auto;
+    width: 60%;
+}
+
+.ProgressBar {
+    width: 3rem;
+    height: 3rem;
+    padding-right: 2rem;
+}
+.Wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    background: rgb(0,0,0);
+}
+.BackdropImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+.PosterImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: auto;
+}
+.RatingContainer {
+    display: flex;
+}

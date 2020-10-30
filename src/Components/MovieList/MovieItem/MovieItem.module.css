@@ -1,0 +1,6 @@
+.MovieContainer {
+    width: 300px;
+    min-width: 300px;
+    padding: 1rem 0;
+    cursor: pointer;
+}
